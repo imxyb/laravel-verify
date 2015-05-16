@@ -7,9 +7,9 @@
      
 
 > {
-	> "require": {
-			"xyb/verify": "dev-master"
-		}
+	"require": {
+		"xyb/verify": "dev-master"
+	}
 > }
 
  2.execute command under your project folder: **composer update**
@@ -25,7 +25,7 @@
         '....'
         'Xyb\Verify\ServiceProvider',
 ],
-> 
+
 > 'aliases' => [
 	'....'
 	'Checkcode' => 'Xyb\Verify\Facade',
